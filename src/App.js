@@ -74,7 +74,6 @@ function App() {
         controller.puzzle.isWon ? (<div id="win message" style={{ color: "white" }}>
           <h1>Congrats! You Won!</h1> </div>
         ) : (<></>)}
-      {/* <button onClick={() => { controller.debug(); }}>Solve</button> */}
     </main >
   );
 }
